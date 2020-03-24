@@ -8,3 +8,6 @@ ls -ld *(/^F)
 
 # List all files without an extension
 ls *~*.*(.)
+
+# List all files *not* modified today
+ls *(^m0)
