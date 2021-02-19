@@ -1,0 +1,15 @@
+[
+  {
+    "description": "Get a function's definition",
+    "value": "whence -f <function>"
+  },
+
+  { "description": "List empty sub-directories", "value": "ls -ld *(/^F)" },
+
+  {
+    "description": "List all files without an extension",
+    "value": "ls *~*.*(.)"
+  },
+
+  { "description": "List all files *not* modified today", "value": "ls *(^m0)" }
+]
